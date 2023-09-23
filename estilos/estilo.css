@@ -6,14 +6,15 @@ body {
     overflow-x: hidden;
 }
 
+
 * {
     margin: 0;
     padding: 0;
 }
 
 .nav-inicio {
-    background-color: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #FFBB5C;
+    box-shadow: 0px 4px 4px #E25E3E;
     position: relative;
     height: auto;
     min-height: 90px;
@@ -39,25 +40,25 @@ body {
 
 .navdiv ul li a {
     text-decoration: none;
-    color: #2272ED;
+    color: #000000;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
     padding: 12px 20px;
     border-radius: 20px;
 }
 
 .navdiv ul li a:hover {
-    background-color: #f7f7f7;
+    background-color: #E25E3E;
     transition: 150ms;
 }
 
 .navdiv ul li a:active {
-    background-color: #ebebeb;
+    background-color: #E25E3E;
 }
 
 .activo {
-    background-color: #ebebeb;
-    border: #2272ED 1px solid;
+    background-color: #E25E3E;
+    border: #E25E3E 1px solid;
 }
 
 .main-inicio {
@@ -66,7 +67,7 @@ body {
 }
 
 .seccion-inicio {
-    background-color: #F3F3F3;
+    background-color: #FF9B50;
     height: 520px;
     width: 800px;
     margin: 35px 0px;
@@ -76,7 +77,7 @@ body {
 
 .seccion-inicio div ul {
     list-style: none;
-    color: #5E5E5E;
+    color: #000000;
     line-height: 4;
     font-size: 23px;
 }
@@ -91,7 +92,7 @@ body {
 
 .datos-inicio img {
     border-radius: 20px;
-    border: #2272ED 3px solid;
+    border: #FF9B50 3px solid;
 }
 
 .titulo {
@@ -101,7 +102,7 @@ body {
 
 .titulo h1 {
     font-size: 40px;
-    color: #2272ED;
+    color: #000000;
     font-weight: 600;
 }
 
@@ -119,7 +120,7 @@ label {
     }
 
     .activo {
-        background-color: #1f193000;
+        background-color: #E25E3E;
         border: none;
     }
 
@@ -128,20 +129,20 @@ label {
         position: absolute;
         top: 90px;
         right: 0px;
-        background-color: white;
+        background-color: #FFBB5C;
         z-index: 1;
         width: 190px;
         padding-right: 12px;
         border-radius: 0px 0px 0px 15px;
-        border: #2272ED 2px solid;
+        border: #FFBB5C 2px solid;
     }
 
     input:checked~label {
-        background-color: #ebebeb;
+        background-color: #E25E3E;
     }
 
     label:hover {
-        background: #f1f1f1;
+        background: #000000;
     }
 
     .labeldiv {
@@ -156,7 +157,7 @@ label {
     }
 
     .lista li a:hover {
-        background-color: rgba(178, 34, 34, 0) !important;
+        background-color: #E25E3E !important;
     }
 
     label {
@@ -164,8 +165,8 @@ label {
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 2px solid #2272ED;
-        color: #2272ED;
+        border: 2px solid #E25E3E;
+        color: #E25E3E;
         border-radius: 10px;
         width: 50px;
         height: 40px;
@@ -174,7 +175,7 @@ label {
         font-weight: 600;
         user-select: none;
         cursor: pointer;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
     }
 
     .seccion-inicio {
@@ -285,7 +286,7 @@ label {
 
 
 .seccion-propuesta {
-    background-color: #F3F3F3;
+    background-color: #FF9B50;
     height: 520px;
     width: 800px;
     margin: 35px 0px;
@@ -295,14 +296,14 @@ label {
 
 .seccion-propuesta h1 {
     text-align: center;
-    color: #2272ED;
-    font-size: 40px;
+    color: #000000;
+    font-size: 30px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .seccion-propuesta p {
-    color: #5E5E5E;
+    color: #000000;
     font-size: 22.8px;
     text-align: justify;
     padding-right: 50px;
@@ -310,11 +311,11 @@ label {
 
 .seccion-propuesta img {
     border-radius: 20px;
-    border: #2272ED 3px solid;
+    border: #FF9B50 3px solid;
 }
 
 .seccion-avances {
-    background-color: #F3F3F3;
+    background-color: #FF9B50)
     height: 440px;
     width: 800px;
     margin: 35px 0px;
@@ -324,21 +325,21 @@ label {
 
 .seccion-avances h1 {
     text-align: center;
-    color: #2272ED;
+    color: #FF9B50;
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
 .seccion-avances p {
-    color: #5E5E5E;
+    color: #FF9B50;
     font-size: 22.8px;
     text-align: justify;
     padding-right: 50px;
 }
 
 .seccion-avances2 {
-    background-color: #F3F3F3;
+    background-color: #FF9B50;
     height: 3150px;
     width: 800px;
     margin: 35px 0px;
@@ -349,13 +350,13 @@ label {
 
 .seccion-avances2 h1 {
     text-align: center;
-    color: #2272ED;
+    color: #FF9B50;
     font-size: 40px;
     font-weight: 600;
 }
 
 .seccion-avances2 p {
-    color: #5E5E5E;
+    color: #000000;
     font-size: 22.8px;
     text-align: center;
 }
@@ -383,7 +384,7 @@ label {
 .clase-colores{
     height: 150px;
     width: 150px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -394,21 +395,23 @@ label {
 }
 
 #color1{
-    background-color: #2272ED;
+    background-color: #FF9B50;
 }
 
 #color2{
-    background-color: #34D7C6;
+    background-color: #FF9B50;
 }
 
 #color3{
-    background-color: #80EA75;
+    background-color: #FF9B50;
 }
 
 
 .div-propuesta {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .div-avances {
@@ -417,14 +420,17 @@ label {
 }
 
 footer {
-    background-color: #091c38;
+    background-color: #FF9B50;
     height: 80px;
     width: 100%;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 200;
     display: flex;
     align-items: center;
+    font-weight: 500;
     font-size: 15px;
+    padding: 12px 20px;
+    border-radius: 20px;
 }
 
 footer div {
@@ -434,7 +440,7 @@ footer div {
 }
 
 .seccion-2 {
-    background-color: #F3F3F3;
+    background-color: #FF9B50;
     height: 100px;
     width: 800px;
     margin: 35px 0px;
@@ -445,7 +451,7 @@ footer div {
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    color: #2272ED;
+    color: #FF9B50;
 }
 
 .main-inicio-2 {
@@ -519,7 +525,7 @@ footer div {
 }
 
 .seccion-inicio2 {
-    background-color: #F3F3F3;
+    background-color: #FF9B50;
     height: 450px;
     width: 800px;
     margin: 35px 0px;
@@ -532,22 +538,22 @@ footer div {
 }
 
 .texto-boton a {
-    background-color: #2272ED;
+    background-color: #FF9B50;
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     width: 30px;
 }
 
 .texto-boton a:hover {
-    background-color: #1d60c4;
+    background-color: #000000;
     transition: 150ms;
 }
 
 .texto-boton a:active {
-    background-color: #194e9e;
+    background-color: #000000;
     transition: 150ms;
 }
 
@@ -575,7 +581,7 @@ footer div {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: FF9B50;
     background-size: cover;
 }
 
@@ -602,3 +608,8 @@ footer div {
     flex-direction: column;
     align-items: center;
 }
+
+#hp  {
+    float: right;    
+     margin: 0 0 0 15px;
+    }
