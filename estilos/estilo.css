@@ -28,6 +28,15 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+.fondo {
+    background-image: url(../img/fondo.jpg);
+    height: 1000px;
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .navdiv ul {
     list-style: none;
