@@ -73,6 +73,7 @@ body {
 .main-inicio {
     display: flex;
     justify-content: center;
+    overflow: scroll;
 }
 
 .seccion-inicio {
@@ -293,7 +294,6 @@ label {
     }
 }
 
-
 .seccion-propuesta {
     background-color: #FF9B50;
     height: 520px;
@@ -301,10 +301,13 @@ label {
     margin: 35px 0px;
     border-radius: 20px;
     padding: 40px 80px;
+    overflow: scroll;
 }
 
 .seccion-propuesta h1 {
     text-align: center;
+    justify-content: center;
+    align-items: center;
     color: #000000;
     font-size: 30px;
     font-weight: 600;
@@ -330,6 +333,7 @@ label {
     margin: 35px 0px;
     border-radius: 20px;
     padding: 40px 80px;
+    overflow: scroll;
 }
 
 .seccion-avances h1 {
