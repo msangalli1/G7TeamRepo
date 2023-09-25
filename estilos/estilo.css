@@ -301,7 +301,7 @@ label {
     margin: 35px 0px;
     border-radius: 20px;
     padding: 40px 80px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .seccion-propuesta h1 {
