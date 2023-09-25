@@ -334,14 +334,14 @@ label {
 
 .seccion-avances h1 {
     text-align: center;
-    color: #FF9B50;
+    color: #000000;
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
 .seccion-avances p {
-    color: #FF9B50;
+    color: #000000;
     font-size: 22.8px;
     text-align: justify;
     padding-right: 50px;
@@ -349,7 +349,7 @@ label {
 
 .seccion-avances2 {
     background-color: #FF9B50;
-    height: 3150px;
+    height: 440px;
     width: 800px;
     margin: 35px 0px;
     border-radius: 20px;
@@ -359,7 +359,7 @@ label {
 
 .seccion-avances2 h1 {
     text-align: center;
-    color: #FF9B50;
+    color: #000000;
     font-size: 40px;
     font-weight: 600;
 }
@@ -458,7 +458,7 @@ footer div {
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    color: #FF9B50;
+    color: #000000;
 }
 
 .main-inicio-2 {
