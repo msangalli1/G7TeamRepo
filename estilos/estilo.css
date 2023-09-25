@@ -124,6 +124,7 @@ label {
 }
 
 @media (max-width: 1130px) {
+       
     .navdiv .lista {
         display: none;
     }
@@ -620,7 +621,9 @@ footer div {
     align-items: center;
 }
 
+
 #hp  {
-    float: right;    
+    float: inline-end;    
      margin: 0 0 0 15px;
+
     }
