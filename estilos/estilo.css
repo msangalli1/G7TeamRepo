@@ -73,7 +73,6 @@ body {
 .main-inicio {
     display: flex;
     justify-content: center;
-    overflow: scroll;
 }
 
 .seccion-inicio {
