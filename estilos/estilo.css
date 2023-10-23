@@ -36,6 +36,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    resize: both;
+    overflow: auto;
+    background-repeat: repeat
+}
+.fondoavances {
+    background-image: url(../img/fondo.jpg);
+    height: auto;
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
+    background-repeat: repeat
 }
 
 .navdiv ul {
@@ -248,7 +263,7 @@ label {
 
     .seccion-avances {
         width: 270px !important;
-        height: 925px !important;
+        height: auto !important;
     }
       p {
         padding: 0px !important;
@@ -328,12 +343,13 @@ label {
 
 .seccion-avances {
     background-color: #FF9B50;
-    height: 440px;
+    height: auto;
     width: 800px;
-    margin: 35px 0px;
+    margin: 15px 0px;
     border-radius: 20px;
     padding: 40px 80px;
-    overflow: scroll;
+    overflow: auto;
+    
 }
 
 .seccion-avances h1 {
