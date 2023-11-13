@@ -353,12 +353,18 @@ label {
     
 }
 
+.seccion-avances img {
+    width: 600px;
+    height: auto;
+}
+
 .seccion-avances h1 {
     text-align: center;
     color: #000000;
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
+    justify-content: center;
 }
 
 .seccion-avances p {
@@ -366,6 +372,7 @@ label {
     font-size: 22.8px;
     text-align: justify;
     padding-right: 50px;
+    justify-content: center;
 }
 
 .seccion-avances2 {
